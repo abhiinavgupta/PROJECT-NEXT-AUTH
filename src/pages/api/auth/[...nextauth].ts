@@ -31,10 +31,6 @@ export default NextAuth({
         clientId: process.env.TWITTER_CLIENT_ID as string,
         clientSecret: process.env.TWITTER_CLIENT_SECRET as string
       })
-    // Passwordless / email sign in
-    // EmailProvider({
-    //   server: process.env.MAIL_SERVER,
-    //   from: 'NextAuth.js <no-reply@example.com>'
-    // }),
+  
   ]
 })
